@@ -89,6 +89,7 @@ def _hocbf_terms(
     return Lf_psi1, Lg_psi1, float(alpha2 * psi1)
 
 
+
 def solve_landing_socp(
     x: np.ndarray,
     cbf: GlideSlopeCBF,
